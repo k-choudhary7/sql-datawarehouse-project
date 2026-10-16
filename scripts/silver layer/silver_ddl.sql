@@ -2,9 +2,9 @@
 ---------------------------------------------------------------------------
 Create Silver layer: DDL Script
 ---------------------------------------------------------------------------
-The purpose of this script is to create tables in  schema. dropping 
+The purpose of this script is to create tables in  silver schema, dropping 
 the tables if already exist and re-create them. This script redefine the 
-structure of bronze tables after applying transformation and standadization.
+structure of bronze tables.
 ---------------------------------------------------------------------------
 */
 if object_id('silver.crm_cust_info','u') is not null 
