@@ -419,12 +419,12 @@ Git / GitHub                        | Version control and project management
 # 📂 Repository Structure
 
 ```text
-data-warehouse-project/
+sql-datawarehouse-project/
 │
 ├── datasets/
 │   └── # ERP and CRM source CSV datasets
 │
-├── docs/
+├── documents/
 │   ├── etl.drawio
 │   ├── data_architecture.drawio
 │   ├── data_flow.drawio
